@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id = "student" class = "com.Spring.DependencyInjection.School.Student">
+   	  <property name="studentName" value="Trivikram"></property>
+   	  <property name="studentId" value="1000"></property>
+   	  <constructor-arg name="studentAge" value="9"></constructor-arg>
+   </bean>
+   
+   <bean id = "student1" class = "com.Spring.DependencyInjection.School.Student">
+   	  <property name="studentName" value="Nithya"></property>
+   	  <property name="studentId" value="1000"></property>
+   	  <constructor-arg name="studentSection" value="A"></constructor-arg>
+   	  <constructor-arg name="studentAge" value="9"></constructor-arg>
+   </bean>
+   
+</beans>
