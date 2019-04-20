@@ -8,7 +8,7 @@
    <bean id = "student" class = "com.Spring.DependencyInjection.School.Student">
    	  <property name="studentName" value="Trivikram"></property>
    	  <property name="studentId" value="1000"></property>
-   	  <constructor-arg name="studentAge" value="9"></constructor-arg>
+   	  <constructor-arg name="studentAge" value="9" type="int"></constructor-arg>
    </bean>
    
    <bean id = "student1" class = "com.Spring.DependencyInjection.School.Student">
